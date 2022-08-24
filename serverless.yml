@@ -44,7 +44,7 @@ functions:
     handler: src/deleteTodo.handler
     events:
       - httpApi:
-          path: /todo/{id}
+          path: /deltodo/{id}
           method: get
 
 
