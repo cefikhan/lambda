@@ -40,6 +40,12 @@ functions:
           path: /todo/{id}
           method: get
 
+  deleteTodo:
+    handler: src/deleteTodo.handler
+    events:
+      - httpApi:
+          path: /todo/{id}
+          method: get
 
 
 
